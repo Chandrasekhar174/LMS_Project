@@ -1,0 +1,49 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #9be2fe, #67d6f7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  height: 100vh;
+  width: 800px;
+}
+
+.admin { background-color: #ffb300; }
+.teacher { background-color: #00796b; }
+.student { background-color: #42a5f5; }
